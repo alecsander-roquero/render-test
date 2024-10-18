@@ -4,6 +4,7 @@ const cors = require("cors");
 const app = express();
 
 app.use(express.json()); //for parsing json requests
+app.use(express.static("dist"));
 app.use(cors());
 app.use(
   morgan(function (tokens, req, res) {
