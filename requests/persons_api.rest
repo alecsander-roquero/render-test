@@ -8,3 +8,6 @@ Content-Type: application/json
   "name": "Dekku Aaron",
   "number": "23424332"
 }
+
+###
+GET http://localhost:3001/api/persons
